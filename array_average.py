@@ -15,7 +15,6 @@ def main():
     numbers_average = 0
     random_numbers = []
     # process & output
-    random_number = random.randint(1, 9)
     for counter in range(0, 10):
         random_number = random.randint(1, 100)
         random_numbers.append(random_number)
